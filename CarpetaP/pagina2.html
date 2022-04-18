@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <div>
+        <!-- Aqui va la cabezera de la pagina con la imagen del logo-->
+    </div>
+    <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="C:\Users\Spect\OneDrive\Documents\University\3er_semestre\Programacion_Web\Proyecto\CooperativaArte\GrupoCero_SinFondo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#login">Log In</a>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="login" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="loginLabel">Ingrese su Usuario</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div>
+                                        <label for="correo" class="form-label">Correo Electronico</label><br>
+                                        <input type="email" class="form-control" id="correo" name="correo" required>
+                                    </div>
+                                    <div>
+                                        <label for="nombre" class="form-label">Contraseña</label><br>
+                                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                                    </div>
+                                    <div>
+                                        <br>
+                                        <a href=""  style="padding-left: 30px;">Registrate</a>
+                                        <a href="" style="padding-left: 150px;">Olvidaste tu contraseña?</a>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-primary">Ingresar</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </li>
+                        
+                    </ul>
+                    <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+                </div>
+            </nav>
+    </header>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000" style="background-image:url(img/Slide1.jpg);">
+                <div class="container">
+                    <h1>Example Headline</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At possimus vero eaque porro corporis magni culpa, quasi nemo iure commodi voluptatum delectus fugit id eveniet consequuntur repudiandae omnis totam! A.</p>
+                    <a href="#" class="btn btn-lg btn-primary">
+                        Sign up today
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <div class="container">
+                    <h1>Example Headline</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At possimus vero eaque porro corporis magni culpa, quasi nemo iure commodi voluptatum delectus fugit id eveniet consequuntur repudiandae omnis totam! A.</p>
+                    <a href="#" class="btn btn-lg btn-primary">
+                        Sign up today
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="sr-only">previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+            <span class="sr-only">next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </div>
+    
+    <div class="container-fluid quienesSomos">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="https://r3.abcimg.es/resizer/resizer.php?imagen=https%3A%2F%2Fstatic1.abc.es%2Fmedia%2Fcultura%2F2020%2F11%2F20%2Fgachet-k8bB--220x220%40abc.jpg&nuevoancho=256&medio=abc "  alt="">
+            </div>
+            <div class="col-sm-8">
+                    <h1>Quienes somos?</h1>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque eius, nisi earum ad modi illo harum vel possimus laborum placeat, neque libero similique dolorum perspiciatis optio ab repudiandae repellendus porro.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quibusdam non deserunt doloribus esse dolores, ut cum eveniet commodi tempore atque magnam autem, molestias in optio! Atque ea vel delectus!
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti quaerat consequuntur sed, impedit excepturi atque mollitia officiis laborum dolorum. Nobis quas sit porro, fuga inventore sequi soluta expedita eius. Tenetur.
+                    </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid articulo">
+        <div class="row">
+            <div class="col-sm-8">
+                <h1>Vende tus obras con nosotros!</h1>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe et voluptatibus molestias assumenda dignissimos veritatis rem voluptatum error nemo iure eaque ipsam aperiam dicta beatae accusantium porro fugit, repellendus doloremque!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ducimus voluptatum laborum architecto facere. Blanditiis minus dolore ipsa voluptate eligendi consectetur id? Quas consequatur delectus distinctio eveniet. Doloribus, natus culpa?
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <img src="https://discoveryartfair.com/wp-content/uploads/2020/09/artfein-Gallery_Discovery-Art-Fair-Cologne.jpg" height="220" width="220" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer container-fluid">
+        <br>
+        <span>Siguenos en redes sociales!</span>
+        <br>
+        <a href="https://www.instagram.com"> <img src="img/IconoInstaBlanco.png" alt="Icono Instagram en Blanco" height="64" width="64"></a>
+        <a href="https://www.facebook.com"> <img src="img/IconoFaceBlanco.png" height="64" width="64" alt="Icono facebook en Blanco"></a>
+        <a href="https://www.twitter.com"> <img src="img/IconoTwitterBlanco.png" alt="Icono Twitter en Blanco" height="64" width="64"></a>
+    </footer>
+</body>
+</html>
